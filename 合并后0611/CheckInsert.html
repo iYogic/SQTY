@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link rel="stylesheet" type="text/css" href="./css/all.css">
+	<link rel="stylesheet" type="text/css" href="./css/index_Check.css">
+	<title>维修信息管理系统</title>
+</head>
+<body>
+	<div class="container">
+		<div class="nav">
+			<div class="nav_left"><img src="img/navtip.png" alt=""></div>
+			<div class="nav_right">
+				工位:
+				<span class="work_num">A10MC010</span>
+				<span class="getout">退出</span>
+			</div>
+		</div>
+		<div class="contentarea">
+			<!-- 内容开始，内容写在content中 -->
+				<div class="content">
+					<div class="SelectDate">
+						<div class="prev_day">下一日</div>
+						<input type="text" class="demo-input date" placeholder="请选择日期" id="test1">
+						<div class="next_day">上一日</div>
+					</div>
+				<div class="line"></div>
+				<div class="content_box">
+					<div class="content_box_left">
+						<div class="content_box_left_title">
+							<span>检查填写</span>
+							<div class="finishInspec">
+								<span>已完成点检</span>
+							</div>
+						</div>
+						<div class="content_box_left_content">
+							<ul>
+								<li>
+									<span>工位TPM过程实施</span>
+									<span class="wrong_cookies"><span style="color: red">1</span>条错误</span>
+								</li>
+								<li>
+									<span>Take2</span>
+									<span class="wrong_cookies"><span style="color: red">3</span>条错误</span>
+								</li>
+								<li>
+									<span>安全问题反馈</span>
+									<span class="wrong_cookies"><span style="color: red">2</span>条错误</span>
+								</li>
+								<li>
+									<span>共23条项目</span>
+									<span class="wrong_cookies">共<span style="color: red">6</span>条错误</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="content_box_right">
+						<div class="content_box_right_title">
+							<span>检查与介绍</span>
+						</div>
+						<div class="content_box_left_content">
+							<ul>
+								<li>
+									<span>工位TPM结果反馈</span>
+									<span class="check">查看</span>
+								</li>
+								<li>
+									<span>维修SOP</span>
+									<span class="check">查看</span>
+								</li>
+								<li>
+									<span>PTP</span>
+									<span class="check">查看</span>
+								</li>
+								<li>
+									<span>易损件物料清单</span>
+									<span class="check">查看</span>
+								</li>
+								<li>
+									<span>操作指南</span>
+									<span class="check">查看</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+	<script src="./js/laydate/laydate.js"></script>
+	<script src="./js/CheckInsert.js"></script>
+</body>
+</html>

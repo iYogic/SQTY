@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>维修信息管理系统</title>
+	<link rel="stylesheet" type="text/css" href="./css/TPM.css">
+	<link rel="stylesheet" type="text/css" href="./css/all.css">
+</head>
+<body>
+	<div class="container">
+		<div class="nav">
+			<div class="nav_left"><img src="img/navtip.png" alt=""></div>
+			<div class="nav_right">
+				工位:
+				<span class="work_num">A10MC010</span>
+				<span class="getout">退出</span>
+			</div>
+		</div>
+		<div class="contentarea">
+			<!-- 内容开始，内容写在content中 -->
+			<div class="content">
+				<div class="pthNav">	
+					<span class="pthNav-homePage">首页</span>
+					<img class="pthNav-imgOne" src="./img/blueLine.png">	
+					<span class="pthNav-fileCheck">检查填写</span>			
+					<img class="pthNav-imgOne" src="./img/blueLine.png">
+					<span class="subCheck">工位TPM过程实施</span>	
+					<span class="pthNav-view">查看</span>
+					<span class="lowd">工作明细清单</span>	
+					<img class="pthNav-imgTwo"	src="./img/excelicon.png">
+				</div>
+				<div class="pageFour-countDown">
+					<img class="pfcd-img" src="./img/clock.png">
+					<span class="pfcd-spanOne">检审倒计时:</span>
+					<span class="pfcd-spanTime">30:00</span>
+				</div>
+				<div class="pageFour-display">
+					<div class="pfdNav">
+						<span class="pfddo-spanOne">
+							序号
+						</span>
+						<span class="pfddo-spanTwo">|</span>
+						<span class="pfddo-spanThree">
+							检测项目名称
+						</span>
+						<span class="pfddo-spanFour">|</span>
+						<span class="pfddo-spanFive">
+							检测时间
+						</span>
+						<span class="pfddo-spanSix">|</span>
+						<span class="pfddo-spanSeven">
+							检测项目数
+						</span>
+						<span class="pfddo-spanEight">|</span>
+						<span class="pfddo-spanNine">
+							检测结果
+						</span>
+						<span class="pfddo-spanTen">|</span>
+						<span class="pfddo-spanEleven">
+							操作
+						</span>
+					</div>
+					<div class="pfdContent">
+						<div class="disContentrobot">
+							<ul class="conRobotlist">
+								<li>1</li>
+								<li class="conRobotlistTwo">机器人</li>
+								<li class="conRobotlistThree">
+									<input class="robotlistTime" type="time" name="" value="">
+								</li>
+								<li class="conRobotlistFour">
+									<input class="robotlistNum" type="number">
+								</li>
+								<li class="conRobotlistFive">
+									<span class="conRobotlFiOne">未检测</span>
+									<span class="conRobotlFiTwo">无</span>
+									<span class="conRobotlFiThree">有</span>
+								</li>
+								<li class="conRobotlistSix">
+									<span class="conRobotlistSixview">查看</span>
+								</li>
+							</ul>
+						</div>
+						<div class="disContentCF">
+							<ul class="conCFlist">
+								<li>2</li>
+								<li class="conCFlistTwo">工艺滑台</li>
+								<li class="conCFlistThree">
+									<input class="conCFlistTime" type="time" name="" value="">
+								</li>
+								<li class="conCFlistFour">
+									<input class="conCFlisttNum" type="number">
+								</li>
+								<li class="conCFlistFive">
+									<span class="conCFlistFiOne">未检测</span>
+									<span class="conCFlistFiTwo">无</span>
+									<span class="conCFlistFiThree">有</span>
+								</li>
+								<li class="conCFlistSix">
+									<span class="conCFlistSixview">查看</span>
+								</li>
+							</ul>
+						</div>
+						<div class="disContentFDS">
+							<ul class="conFDSlist">
+								<li>3</li>
+								<li class="conFDSlistTwo">FDS</li>
+								<li class="conFDSlistThree">
+									<input class="FDSlistTime" type="time" name="" value="">
+								</li>
+								<li class="conFDSlistFour">
+									<input class="FDSlistNum" type="number">
+								</li>
+								<li class="conFDSlistFive">
+									<span class="conFDSlFiOne">未检测</span>
+									<span class="conFDSlFiTwo">无</span>
+									<span class="conFDSlFiThree">有</span>
+								</li>
+								<li class="conFDSlistSix">
+									<span class="conFDSlistSixview">查看</span>
+								</li>
+							</ul>
+						</div>
+						<div class="disContentARW">
+							<ul class="conARWlist">
+								<li>4</li>
+								<li class="conARWlistTwo">铝阻焊</li>
+								<li class="conARWlistThree">
+									<input class="ARWlistTime" type="time" name="" value="">
+								</li>
+								<li class="conARWlistFour">
+									<input class="ARWlistNum" type="number">
+								</li>
+								<li class="conARWlistFive">
+									<span class="conARWlFiOne">未检测</span>
+									<span class="conARWlFiTwo">无</span>
+									<span class="conARWlFiThree">有</span>
+								</li>
+								<li class="conARWlistSix">
+									<span class="conARWlistSixview">查看</span>
+								</li>
+							</ul>
+						</div>
+					</div>			
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./js/jquery-1.11.3.min.js"></script>
+	<script src="./js/TPM.js"></script>
+</body>
+</html>

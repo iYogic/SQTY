@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/all.css">
+	<link rel="stylesheet" type="text/css" href="./css/index_StatisticsMap.css">
+	<title>工位TPM结果反馈</title>
+</head>
+<body>
+	<div class="container">
+		<div class="nav">
+			<div class="nav_left"><img src="img/navtip.png" alt=""></div>
+			<div class="nav_right">
+				工位:
+				<span class="work_num">A10MC010</span>
+				<span class="getout">退出</span>
+			</div>
+		</div>
+		<div class="contentarea">
+			<!-- 内容开始，内容写在content中 -->
+			<div class="content">
+				<div class="content_title"><span><</span><span>-</span>首页<span>-</span>工位TPM结果反馈</div>
+				<div class="date_select">
+					<span>检测开始时间：</span>
+					<span>
+						<form action="">
+							<select name="year">
+								<option value="2010">2010</option>
+								<option value="2011">2011</option>
+								<option value="2012">2012</option>
+								<option value="2013">2013</option>
+								<option value="2014">2014</option>
+								<option value="2015">2015</option>
+								<option value="2016">2016</option>
+								<option value="2017">2017</option>
+								<option value="2018" selected>2018</option>
+							</select>
+							<select name="month">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12" selected>12</option>
+							</select>
+							<select name="day">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12" selected>12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+								<option value="31">31</option>
+							</select>
+						</form>
+					</span>
+					<span style="margin-left: 20px;">检测结束时间：</span>
+					<span>
+						<form action="">
+							<select name="year">
+								<option value="2010">2010</option>
+								<option value="2011">2011</option>
+								<option value="2012">2012</option>
+								<option value="2013">2013</option>
+								<option value="2014">2014</option>
+								<option value="2015">2015</option>
+								<option value="2016">2016</option>
+								<option value="2017">2017</option>
+								<option value="2018" selected>2018</option>
+							</select>
+							<select name="month">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12" selected>12</option>
+							</select>
+							<select name="day">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12" selected>12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+								<option value="31">31</option>
+							</select>
+						</form>
+					</span>
+					<span>查看</span>
+				</div>
+				<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+	    		<div id="main"></div>
+	    		<div class="bottom_button">
+					<span>审批</span>
+					<span>报备</span>
+					<span>通知</span>
+					<span>返回</span>
+	    		</div>
+			
+
+			</div>
+		</div>
+	</div>
+	<script src="./js/echarts.common.min.js"></script>
+	<script src="./js/ResultFeedback.js"></script>
+</body>
+</html>

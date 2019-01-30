@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>维修信息管理系统</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+</head>
+<style>
+	body,html{
+		height: 100%;
+		width:100%;
+		border:0px;
+		padding:0px;
+		margin: 0px;
+	}
+	.container{
+		width:100%;
+		height:100%;
+		background-image: url("img/loginbg.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: center;
+		position: relative;
+	}
+	.content{
+		height: 410px;
+		width: 46%;
+		max-width: 600px;
+		min-width: 400px;
+		margin: 0 auto;
+		background-color:#ececec;
+		position: relative;
+		top:50%;
+		transform: translateY(-50%);
+		-ms-transform:translateY(-50%); /* IE 9 */
+		-webkit-transform:translateY(-50%); /* Safari and Chrome */
+		opacity:0.7;
+	}
+
+
+
+</style>
+<body>
+	<div class="container">
+		<div class="content">
+			
+			
+
+
+
+
+		</div>
+	</div>
+</body>
+<script>
+//新建api
+var saveulr=".......";
+var token=.....;
+var datattt={};
+//主题名称
+datattt.name=;
+//ms
+datattt.semdesc=;
+//xiangxixixix
+var reopert=[];
+var reportobj={};
+var thid="";
+var parmars="";
+var type="";
+var name="";
+var desc="";
+var level="";
+for(var i=0;i<$(".navlistleft").length;i++){
+
+	
+	reportobj.thid=$(".navlistleft")[i].html();
+	reportobj.parmars=$(".navlistleft")[i].html();
+	reportobj.type=$(".navlistleft")[i].html();
+	reportobj.name=$(".navlistleft")[i].html();
+	reportobj.desc=$(".navlistleft")[i].html();
+	reportobj.level=$(".navlistleft")[i].html();
+
+
+	reopert.push(reportobj);
+	reportobj={};
+	thid="";
+	parmars="";
+	type="";
+	name="";
+	desc="";
+	level="";
+}
+
+datattt.reporlist=reopert
+
+//
+$.ajax({
+	url:saveulr,
+	type:"post",
+	data:{
+		token:token,
+		data:datattt;
+	},
+	success:function(arr){
+
+		if(arr.success==true){
+			alert()
+		}else if(arr.success==false){
+			alert()
+		}
+
+
+	},
+	erro:function(){
+
+
+	},
+	complete:function(){
+
+	}
+
+})
+
+
+</script>
+</html>

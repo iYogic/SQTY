@@ -1,0 +1,197 @@
+	/*内容开始*/
+	.pthNav{
+		width: 100%;
+		height: 60px;
+		background-color:#f5f5f5;
+	}
+	.pthNav-hpage,.introView,.operaGuide{
+		display: inline-block;
+		height:60px;
+		line-height:60px;
+		font-size: 22px;
+		width: 55px;
+		text-align: left;
+		float: left;
+		margin-left: 18px;
+	}
+	.pthNav-imgOne{
+		display: inline-block;
+		width: 10px;
+		height: 2px;
+		margin-top: 28px;
+		float: left;
+	}
+	.introView{
+		width: 111px;	
+		margin-left: 8px;
+		margin-right: 8px;
+	}
+	.operaGuide{
+		width: 95px;
+		margin-left: 8px;
+	}	
+	.safetySlogan{
+		width:100%;
+		height: 60px; 
+	}
+	.safetySlogan-title{
+		display: inline-block;
+		float: right;
+		width: 324px;
+		text-align: right;
+		height: 60px;
+		line-height: 60px;
+		font-size: 20px;
+		color: #000;
+	}
+	.safetySlogan-imgOne{
+		display: inline-block;
+		float: right;
+		width: 30px;
+		height: 30px;
+		margin-top: 15px;
+	}
+	.soperaProcess,.operationSteps-title{
+		width: 100%;
+		height: 58px;
+		border-top:1px solid #ccc;
+		border-bottom:1px solid #ccc;
+		background-color: #fff;
+		
+	}
+	.sopPer,.operationSteps-titleCon{
+		width: 96%;
+		height: 58px;
+		line-height: 58px;
+		font-size: 22px;
+		text-align: left;	
+		margin-left: 18px;	
+	}`
+	.operationSteps-title{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.proDiv{
+		width: 100%;
+		height: 360px;
+	}
+	.proDivleft{
+		width: 66%;
+		height: 360px;
+		margin-right: 4%;
+		float: left;
+	}
+	.proDivright{
+		width: 30%;
+		height: 360px;
+		float: left;
+	}
+	.task,.danger,.PPE,.sketchMap{
+		width: 97%;
+		height: 60px;
+		font-size: 22px;
+		line-height: 60px;
+		float: left;
+		text-align: left;
+		margin-left: 18px;
+	}
+	.sketchMap{
+		margin-left: 0px;
+	}
+	.bWork{
+		margin-left:18px;
+	}
+	.inWork{
+		margin-left: 18px;
+	}
+	.taskContent,.dangerContent,.PPEContent{
+		width: 100%;
+		height: 58px;
+		line-height: 58px;
+		text-align: left;
+		float: left;
+		border: 1px solid #ccc;
+		background-color: #fff;
+	}
+	.tCon,.dangerCon,.PPECon{
+		width: 97%;
+		margin-left: 18px;
+		height: 58px;
+		line-height: 58px;
+		font-size: 22px;
+		text-align: left;
+	}
+	.sketchMap-img{
+		width: 100%;
+		height: 300px;
+
+	}
+	.contentBottom{
+		margin-top: 60px;
+	}
+	.operationSteps{
+		width: 100%;
+	}
+	.beforeWork,.inWork,.afterWork{
+		width: 98%;
+		height: 60px;
+		font-size: 22px;
+		line-height: 60px;
+		text-align: left;
+	}
+	.afterWork{
+		width: 98%;
+		margin-left: 2%;
+	}
+	.beforeWork-content{
+		width: 100%;
+		height: 98px;
+		border: 1px solid #ccc;
+		overflow: scroll;
+		font-size: 22px;
+		background-color: #fff;
+	}
+	.beforeWork-content div{
+		width: 98%;
+		height: 49px;
+		text-align: left;
+		line-height: 49px;
+		margin-left: 2%;
+	}
+	.inWork-content{
+		width: 100%;
+		height: 400px;
+		border: 1px solid #ccc;
+		font-size: 22px;
+		overflow: scroll;
+		background-color: #fff;
+	}
+	.inWork-content div{
+		width: 98%;
+		height: 50px;
+		text-align: left;
+		line-height: 50px;
+		margin-left: 18px;
+	}
+	.inWork-content div span{
+		color:#f00;
+	}
+	.inWork-contentwo,.inWork-contentfi{
+		height: 100px!important;
+	}
+	.afterWork-content{
+		width: 100%;
+		height: 50px;
+		font-size: 22px;
+		text-align: left;
+		border:1px solid #ccc;
+		background-color: #fff;
+	}
+	.afterWork-conone{
+		width:98%;
+		margin-left: 18px;
+		line-height: 50px;
+	}
+	.afterWork-content span{
+		color:#f00;
+	}

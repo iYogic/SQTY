@@ -1,0 +1,178 @@
+	/*内容开始*/
+	.pgnContop{
+		width: 100%;
+	}
+	.workName,.workDate{
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+		text-align: left;
+	}
+	.workDate{
+		margin-top: 5px;
+	}
+	.worknameCont,.workdateCont{
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+	}
+	.worknamecontInput,.workdatecontInput{
+		display: inline-block;
+		height: 100%;
+		width: 100%;
+		border:1px solid #ccc;
+		box-shadow: 0px 2px 10px #c5c5c5;
+		font-size: 22px;
+	}
+	.pgnConbottom{
+		width: 100%;
+		margin-top: 40px;
+	}
+	.pgnContitle{
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+		border-top:1px solid #ccc;
+		border-bottom:1px solid #ccc;
+	}
+	.takeProc{
+		width: 200px;
+		display: inline-block;
+		float: left;
+		font-size: 22px;
+		text-align: left;
+		margin-left: 18px;
+	}
+	.contandresult{
+		width: 18%;
+		display: inline-block;
+		float: right;
+		font-size: 22px;
+		text-align: center;
+		margin-right: 8px;
+	}
+	.pgnConone,.pgnConthree,.pgnConfive,
+	.pgnConseven{
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+		background: rgba(255,255,255,0.7);
+	}
+	.pgnCononespan,.pgnContwospan,.pgnConthreespan,
+	.pgnConfourspan,.pgnConfivespan,.pgnConsixspan,
+	.pgnConsevenspan{
+		width: 75%;
+		text-align: left;
+		display: inline-block;
+		float: left;
+		margin-left: 8px;
+	}
+	.pgnCononebtn,.pgnConthreebtn,.pgnConfivebtn,
+	.pgnConsevenbtn{
+		display: inline-block;
+		float: right;
+		margin-right: 8px;
+		height: 30px;
+		margin-top: 10px;
+		width: 18%;
+		border:1px solid #598bfc;
+	}
+	.pgnConbtn{
+		display: inline-block;
+		width: 50%;
+		height: 30px;
+		line-height: 30px;
+		background-color: #fff;
+		color: #000;
+		text-align: center;
+		float: left;
+	}
+	.pgnContwo,.pgnConfour,.pgnConsix{
+		width: 100%;
+		height: 38px;
+		line-height: 38px;
+		background: rgba(204,204,204,0.3);
+	}
+	.pgnContwobtn,.pgnConfourbtn,.pgnConsixbtn{
+		display: inline-block;
+		float: right;
+		margin-right: 8px;
+		margin-top: 3px;
+		height: 30px;
+		width: 18%;
+		border:1px solid #598bfc;
+	}
+	.pgnbotSum{
+		width: 100%;
+		height: 38px;
+		line-height: 38px;
+		background: rgba(204,204,204,0.3);
+	}
+	.pgnbotSumleft{
+		width: 85%;
+		float: left;
+	}
+	.pgnbotSumright{
+		width: 15%;
+		float: left;
+	}
+	.pgnbotSumleft img{
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		float: left;
+		margin: 9px 4px 0px 4px;
+	}
+	.pgnbotSumleft span{
+		display: inline-block;
+		float: left;
+		overflow: hidden;
+		width: 90%;
+		height: 38px;
+		text-align: left;
+		overflow:hidden; 
+		text-overflow:ellipsis; 
+		white-space:nowrap; 
+		word-break:keep-all; 
+	}
+	.pgnbotSumright img{
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		float: right;
+		margin: 9px 12px 0px 4px;
+	}
+	.pgnbotSumright span{
+		display: inline-block;
+		float: right;
+		overflow: hidden;
+		width: 70%;
+		height: 38px;
+		text-align: right;
+	}
+	.startworkBtndiv{
+		width: 100%;
+		height: 40px;
+		margin-top: 40px;
+	}
+	.startworkBtn{
+		display: block;
+		width: 16%;
+		min-width: 135px;
+		max-width: 215px;
+		background-color: #fff;
+		margin: 0 auto;
+		border:1px solid #ccc;
+		height: 38px;
+		line-height: 38px;
+		text-align: center;
+	}
+	.whitespan{ 
+		
+		background-color: #fff;
+		color:#000;
+	}
+	.bluespan{
+		background-color: #598bfc;
+		color:#fff;
+	}
